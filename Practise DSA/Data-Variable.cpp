@@ -76,4 +76,25 @@ int main(){
 }
 */
 
+#include <iostream>
+using namespace std;
+int main(){
+    int a = 65;
+    cout << a << endl;
+    // char b = 'kh'; // Store only single char.
+    char b = 'k';
+    cout << b << endl;
+    bool bl = true;
+    cout << bl << endl;
+    float fl = 1.236;
+    cout << fl << endl;
+    double d = 1.236;
+    cout << d << endl;
+
+    int size = sizeof(d);
+    cout << "Size of d is : " << size << endl;
+
+
+
+}
 
