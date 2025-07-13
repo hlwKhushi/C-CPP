@@ -72,7 +72,7 @@ int main(){
 
     bool six = (a != b);
     cout << six << endl;
-
+    return 0;
 }
  
 #include <iostream>
@@ -102,7 +102,177 @@ int main(){
 
     bool six = (a != b);
     cout << six << endl;
+    return 0;
+
+}
+ 
+// Code 3. Logical Operators {&&,||,!}
+// [!]::::::::::::::::
+#include <iostream>
+using namespace std;
+int main(){
+    int a = 0;// True ko false kar dega. 
+    int a = 20;
+    cout << !a << endl;
+    return 0;
+}
+
+// [&&]:::::::::::
+#include <iostream>
+using namespace std;
+int main(){
+    int a = 12;
+    int b = 56;
+
+    if (a < b && b > a)
+    {
+        cout << "Both Conditions are True: " << endl;
+    }
+    return 0;
+}
+
+
+// [||]:::::::::::::
+#include <iostream>
+using namespace std;
+int main(){
+    int k = 45;
+    int d = 54;
+
+    if (k == 45 || d == 54) // if (k == 62 || d == 22)
+    {
+        cout << "Atleast One Value have to be True!" << endl;
+    }
+    return 0;
+}
+
+
+// Code 4. Assignment Operators {=,+=,-=,*=,/=,%=}
+#include <iostream>
+using namespace std;
+int main(){
+    int a = 45;
+    cout  << "a = " << a << endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main (){
+    int a; // By User''''
+    cout << "Enter the Value Of a = " << endl;
+    cin >> a;
+    return 0;
+}
+
+
+#include <iostream> 
+using namespace std;
+int main (){
+    int a = 12;
+    a += 5;
+    cout << "a = " << a << endl;
+    return 0; 
+}
+
+
+#include <iostream> 
+using namespace std;
+int main (){
+    int a;
+    cout << "Enter the Value of a = " << endl;
+    cin >> a;
+    a += 5;
+    cout << "a = " << a << endl;
+    return 0; 
+}
+
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cout << "Enter the Value of a = " << endl;
+    cin >> a;
+    a -= 6;
+    cout << "a = " << a << endl;
+    return 0;
+
+}
+
+#include <iostream>
+using namespace std;
+int main (){
+    int d;
+    cout << "Enter the value of d = " << endl;
+    cin >> d;
+    d *= 5;
+    cout << "d = " << d << endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main (){
+    int k;
+    cout << "Enter the value of k = " << endl;
+    cin >> k;
+    k = 5;
+    cout << "k = " << k << endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main (){
+    int s;
+    cout << "Enter the value of s = " << endl;
+    cin >> s;
+    s %= 5;
+    cout << "s = " << s << endl;
+    return 0;
+}
+
+// Code 5. Increment/Decrement Operators {++,--}
+// 1. Pre-Increment (++a)
+#include <iostream>
+using namespace std;
+int main (){
+    int a = 7;
+    int b = ++a;
+    cout << "a = " << a << ", b = " << b << endl;
+    return 0;
+}
+
+// 2. Post-Increment (a++)
+#include <iostream>
+using namespace std;
+int main (){
+    int a = 4;
+    int b = a++;
+    cout << "a = " << a << ", b = " << b << endl;
+    return 0;
+}
+
+
+// 3. Pre-Decrement (--a)
+#include <iostream>
+using namespace std;
+int main (){
+    int a = 4;
+    int b = --a;
+    cout << "a = " << a << ", b = " << b << endl;
+    return 0;
+
+}
+
+// 4. Post-Decrement (a--)
+#include <iostream>
+using namespace std;
+int main (){
+    int a = 4;
+    int b = a--;
+    cout << "a = " << a << ", b = " << b << endl;
+    return 0;
 
 }
 */
- 
